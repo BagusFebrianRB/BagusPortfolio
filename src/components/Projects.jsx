@@ -37,14 +37,7 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-500 hover:text-emerald-300 transition"
-              >
-                <FaArrowRight size={22} />
-              </a>
+
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
@@ -54,6 +47,14 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-800 hover:text-emerald-600 transition"
+              >
+                <FaArrowRight />
+              </a>
             </motion.div>
           </div>
         ))}
