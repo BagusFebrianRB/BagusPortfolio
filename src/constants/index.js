@@ -38,6 +38,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing my projects, skills, and experiences, designed with a clean and responsive layout using modern web technologies.",
     technologies: ["React", "Tailwind", "Javascript", "Framer Motion"],
+    github: "https://github.com/BagusFebrianRB/BagusPortfolio.git",
   },
   {
     title: "Room Reservation Website",
@@ -45,13 +46,15 @@ export const PROJECTS = [
     description:
       "A web-based application for managing room reservations, allowing users to check availability, make bookings, and view schedules in real time.",
     technologies: ["React", "Express.Js", "PostgreSQL"],
+    github: "https://github.com/BagusFebrianRB/weatherApp.git",
   },
   {
-    title: "Portfolio Website",
+    title: "Weather App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A Weather App for gather information about the weather in many city. Use the API from the WeatherAPI.",
+    technologies: ["React", "Javascript", "WeatherAPI"],
+    github: "https://github.com/BagusFebrianRB/weatherApp.git",
   },
   {
     title: "Stock Price Prediction Model using LSTM-GRU",
@@ -59,6 +62,7 @@ export const PROJECTS = [
     description:
       "Developed a deep learning model for predicting stock prices in the Indonesia Stock Exchange using a hybrid LSTM-GRU architecture.",
     technologies: ["Python", "TensorFlow", "Pandas", "Matplotlib"],
+    github: "https://github.com/BagusFebrianRB/weatherApp.git",
   },
 ];
 
