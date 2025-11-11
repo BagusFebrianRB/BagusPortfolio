@@ -46,7 +46,7 @@ export const PROJECTS = [
     description:
       "A web-based application for managing room reservations, allowing users to check availability, make bookings, and view schedules in real time.",
     technologies: ["React", "Express.Js", "PostgreSQL"],
-    github: "https://github.com/BagusFebrianRB/weatherApp.git",
+    github: "https://github.com/BagusFebrianRB/room_reservation.git",
   },
   {
     title: "Weather App",
@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       "Developed a deep learning model for predicting stock prices in the Indonesia Stock Exchange using a hybrid LSTM-GRU architecture.",
     technologies: ["Python", "TensorFlow", "Pandas", "Matplotlib"],
-    github: "https://github.com/BagusFebrianRB/weatherApp.git",
+    github: "https://github.com/BagusFebrianRB/LSTM-GRU.git",
   },
 ];
 

@@ -38,7 +38,20 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
 
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-400">
+                {project.description}{" "}
+                <span>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-800 hover:text-emerald-600 transition "
+                  >
+                    <FaArrowRight size={15} />
+                  </a>
+                </span>
+              </p>
+
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
@@ -47,14 +60,6 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-800 hover:text-emerald-600 transition"
-              >
-                <FaArrowRight size={15} />
-              </a>
             </motion.div>
           </div>
         ))}
