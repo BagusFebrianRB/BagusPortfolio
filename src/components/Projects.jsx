@@ -53,7 +53,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="text-emerald-800 hover:text-emerald-600 transition"
               >
-                <FaArrowRight />
+                <FaArrowRight size={15} />
               </a>
             </motion.div>
           </div>
