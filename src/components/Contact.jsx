@@ -1,5 +1,6 @@
 import { CONTACT } from "../constants";
 import { motion } from "motion/react";
+import { MdArrowOutward } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -29,16 +30,12 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="mailto:bagusfebrian67@gmail.com" className="border-b">
-          {CONTACT.email}
-        </a>
         <a
           href="mailto:bagusfebrian67@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-green-400 underline"
+          className="border-b inline-flex items-center gap-1 hover:text-emerald-600 transition duration-200"
         >
-          Klik untuk kirim email
+          {CONTACT.email}
+          <MdArrowOutward />
         </a>
       </div>
     </div>
